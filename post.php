@@ -1,4 +1,5 @@
 <article class="single <?php echo($post_status); ?>">
+    <a href ="/" ><img src="home.png" class="home_logo"></a>
     <div class="row">
         <div class="one-quarter meta">
             <div class="thumbnail">
@@ -21,7 +22,7 @@
             <?php echo($post_content); ?>
 
             <ul class="actions">
-		<?php include "social_sharing.php"; ?>
+		<?php include "social_sharing.php"; ?><br/>
                 <li><a class="button" href="<?php echo($blog_url); ?>">More Articles</a></li>
             </ul>
 	    

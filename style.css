@@ -417,3 +417,12 @@ ul.actions li {
     
     
 }
+
+.home_logo {
+
+	  width: 35px;
+          height: 35px;
+          padding-left: 10px;
+	  position: fixed;
+
+}
