@@ -1,3 +1,5 @@
+
+
 <article class="single <?php echo($post_status); ?>">
     <a href ="/" ><img src="home.png" class="home_logo"></a>
     <div class="row">
@@ -32,3 +34,6 @@
         </div>
     </div>
 </article>
+
+<link rel="stylesheet" href="<?php echo($template_dir_url); ?>css/prism.css">
+<script type="text/javascript" src="<?php echo($template_dir_url); ?>js/prism.js"></script>
