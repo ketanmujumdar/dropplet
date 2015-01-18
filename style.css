@@ -274,8 +274,8 @@ ul.actions li {
     background-color: #fbfbfb;
     border: 1px solid #ebebeb;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     padding: 5px;
     float: right;
     margin-right: -21px;
@@ -425,4 +425,13 @@ ul.actions li {
           padding-left: 10px;
 	  position: fixed;
 
+}
+
+.first-letter::first-letter { 
+    font-size: 300%;
+    color: #000;
+}
+
+div .first-letter {
+ 	padding-top:30px;
 }

@@ -20,12 +20,9 @@
 		
 	   <!-- Social Sharing Icons-->
 	<?php include "social_sharing.php"; ?>
-
-            <?php echo($post_content); ?>
-
+            <?php echo("<div class=\"first-letter\">".$post_content."</div>"); ?>
             <ul class="actions">
 		<?php include "social_sharing.php"; ?><br/>
-                <li><a class="button" href="<?php echo($blog_url); ?>">More Articles</a></li>
             </ul>
 	    
 	<?php include "comments.php" ?>

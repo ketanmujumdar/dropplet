@@ -15,7 +15,7 @@
 
         <div class="three-quarters post">
             <h2><a href="<?php echo($post_link); ?>"><?php echo($post_title); ?></a></h2>
-            <?php echo($post_intro); ?>
+            <div class="first-letter"><?php echo($post_intro); ?></div>
 	   <a href="<?php echo($post_link."#disqus_thread");?>">Comments</a>
             <ul class="actions">
                 <li><a class="button" href="<?php echo($post_link); ?>">Continue Reading</a></li>
